@@ -1,5 +1,5 @@
 require "schema2plantuml/version"
-require "Schema2plantuml/active_record/schema"
+require "schema2plantuml/active_record/schema"
 
 class Schema2plantuml
   def initialize(schema_file_path = 'schema.rb')

@@ -21,6 +21,10 @@ module ActiveRecord
     def enable_extension(*); end
     def add_index(*); end
     def create_view(*); end
+
+    def self.[](_version)
+      self
+    end
   end
 
   class Table2plantuml
